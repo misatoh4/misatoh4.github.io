@@ -1,0 +1,86 @@
+/*
+https://coolors.co/palette/ffb5a7-fcd5ce-f8edeb-f9dcc4-fec89a
+https://coolors.co/f9c784-006989-78d5d7-63d2ff-2081c3
+https://coolors.co/cb997e-ddbea9-ffe8d6-b7b7a4-a5a58d-6b705c
+
+*/ 
+
+
+html{
+	height:100%; 
+}
+
+body{
+	display:flex; 
+	justify-content:center; 
+	align-items:center; 
+	height:100%; 
+	background-color:#DCC8BC; 
+}
+
+main{
+	width: 800px;
+	height: 600px; 
+	display:grid; 
+	grid-template-rows:1fr 6fr; 
+}
+
+section{
+	border: 4px solid #D6CCC2; 
+	border-radius:25px;
+	padding:15px; 
+	background-color:#F1EAE4; 
+	color:#CEB2A1; 
+	font-size:20px;
+	font-family: 'Lucida Handwriting';
+	overflow-y:hidden;
+	text-align:center;
+}
+
+section img{
+	margin:20px;
+	height:55%;
+}
+
+#menu{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr; 
+	padding:10px; 
+	grid-gap:10px; 
+}
+
+#menu > input{
+	background-color:#F1EAE4; 
+	color:#CEB2A1; 
+	font-size: 18px; 
+	font-family: 'Courier New'; 	
+	border:3px solid #B2876C; 
+	border-radius:15px; 
+}
+
+#menu > input:hover{
+	background-color:#936E4D; 
+	color:#DCCBBC;
+}
+
+
+#theme{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr; 
+	padding:10px; 
+	grid-gap:10px; 
+}
+
+#theme > input{ 
+	background-color:#EAE0D7; 
+	color:#CEB2A1; 
+	font-size: 18px; 
+	font-family: 'Courier New'; 	
+	border:3px solid #B2876C; 
+	border-radius:15px;
+}
+
+#theme > input:hover{
+	background-color:#936E4D; 
+	color:#DCCBBC;
+}
